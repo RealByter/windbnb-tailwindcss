@@ -1,0 +1,37 @@
+.container {
+	background: #ffffff;
+	box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+	border-radius: 16px;
+
+	display: flex;
+	align-content: center;
+	justify-content: space-evenly;
+
+  min-width: 295px;
+	max-width: 420px;
+	width: 70%;
+	margin-inline: auto;
+	margin-top: 76px;
+}
+
+.container p {
+	display: flex;
+	align-items: center;
+	font-size: 0.875rem;
+}
+
+.container p:nth-child(3) {
+	color: #bdbdbd;
+}
+
+.icon {
+	aspect-ratio: 1 / 1;
+	width: 32px;
+	fill: #eb5757e5;
+}
+
+.separator {
+	width: 1px;
+	height: 55px;
+	background-color: #f2f2f2;
+}
