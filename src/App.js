@@ -12,7 +12,7 @@ const App = () => {
 			<SearchBar />
 			<Stays />
 			<p className='created-by'>
-				created by <strong>username</strong> - devChallenges.io
+				created by <strong>Byter</strong> - devChallenges.io
 			</p>
 		</div>
 	);
