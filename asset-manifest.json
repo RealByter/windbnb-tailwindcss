@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/windbnb/static/css/main.3858c1fa.css",
+    "main.css": "/windbnb/static/css/main.d004ed00.css",
     "main.js": "/windbnb/static/js/main.ce8a5503.js",
     "index.html": "/windbnb/index.html",
-    "main.3858c1fa.css.map": "/windbnb/static/css/main.3858c1fa.css.map",
+    "main.d004ed00.css.map": "/windbnb/static/css/main.d004ed00.css.map",
     "main.ce8a5503.js.map": "/windbnb/static/js/main.ce8a5503.js.map"
   },
   "entrypoints": [
-    "static/css/main.3858c1fa.css",
+    "static/css/main.d004ed00.css",
     "static/js/main.ce8a5503.js"
   ]
 }
