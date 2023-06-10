@@ -1,20 +1,7 @@
-.container {
-	display: flex;
-	flex-direction: column;
-	margin: 2.375rem calc(2vw * 2);
-}
-
 .general {
 	display: flex;
 	align-items: center;
-	margin-bottom: 1.5rem;
-}
-
-@media only screen and (min-width: 84.75rem) {
-  .general {
-    width: 90%;
-    margin-inline: auto;
-  }
+	margin: 2.375rem 0 1.5rem;
 }
 
 .general > h2 {
@@ -34,14 +21,17 @@
 	flex-wrap: wrap;
 	justify-content: center;
 	gap: calc(50px + 1.5rem) 32px;
+  margin-bottom: 10rem;
 }
 
 @media only screen and (max-width: 48rem) {
 	.stays {
 		justify-content: center;
 	}
+}
 
+@media only screen and (min-width: 48rem) {
   .general {
-    margin: 0 calc(-(395px - 100vw) / 2) 1.5rem;
+    margin-top: 6rem;
   }
 }

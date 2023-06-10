@@ -7,11 +7,14 @@ import './App.css';
 
 const App = () => {
 	return (
-		<>
+		<div className="app">
 			<Logo />
 			<SearchBar />
 			<Stays />
-		</>
+			<p className='created-by'>
+				created by <strong>username</strong> - devChallenges.io
+			</p>
+		</div>
 	);
 };
 

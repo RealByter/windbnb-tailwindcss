@@ -1,5 +1,12 @@
 .logo {
-  position: absolute;
-  top: 8px;
-  left: 8px;
+	position: absolute;
+	top: -8px;
+	left: -16px;
+}
+
+@media only screen and (min-width: 48rem) {
+	.logo {
+    top: 8px;
+		left: 0;
+	}
 }
