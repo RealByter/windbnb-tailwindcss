@@ -1,8 +1,6 @@
-import styles from './Logo.module.css';
-
 const Logo = () => (
 	<svg
-		className={styles.logo}
+		className=""
 		width="96"
 		height="19"
 		viewBox="0 0 96 19"
