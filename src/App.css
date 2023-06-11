@@ -2,13 +2,6 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-.app {
-  position: relative;
-  display: flex;
-	flex-direction: column;
-	margin: 2.375rem calc(2vw * 2);
-}
-
 .created-by {
   margin-inline: auto;
   margin-bottom: 1.5rem;

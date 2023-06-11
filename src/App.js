@@ -7,12 +7,12 @@ import './App.css';
 
 const App = () => {
 	return (
-		<div className="app">
+		<div className="relative flex flex-col my-[2.375rem] mx-[calc(2vw*2)]">
 			<Logo />
 			<SearchBar />
 			<Stays />
-			<p className='created-by'>
-				created by <strong>Byter</strong> - devChallenges.io
+			<p className="mx-auto mb-6 text-sm font-medium text-gray-500">
+				created by <strong className="font-bold underline">Byter</strong> - devChallenges.io
 			</p>
 		</div>
 	);
